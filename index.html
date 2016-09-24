@@ -2,11 +2,100 @@
 <html>
 <head>
     <title></title>
-    <style type="text/css"></style>
+    <style type="text/css">
+        *, *:before, *:after {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Aerial, sans-serif;
+        }
+
+        header {
+            background-color: #eee;
+            width: 90%;
+            height: 75px;
+            position: relative;
+            margin: auto;
+            line-height: 75px;
+            top: 10px;
+        }
+
+        .navigation ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        .navigation li {
+            list-style-type: none;
+            display: inline-block;
+            line-height: 75px;
+            margin-right: 25px;
+            margin-left: 15px;
+        }
+
+        .logo {
+            width: 100px;
+            height: 100px;
+            background-color: #000;
+            border-radius: 100%;
+            position: absolute;
+            left: 50%;
+            top: -13px;
+            margin-left: -50px;
+            color: #fff;
+            font-size: 45px;
+            padding: 10px 38px;
+        }
+
+        .notification {
+            position: fixed;
+            bottom: 8px;
+            right: 4px;
+            width: 33%;
+            height: 100px;
+            z-index: 1;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px #9D9D9D;
+        }
+
+        .notification h3 {
+            margin-top: 0;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 4px;
+        }
+
+        .notification button {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            z-index: 2;
+            display: inline-block;
+        }
+
+        .notification {
+            padding: 10px;
+        }
+
+        main h1,
+        main h2 {
+            border-bottom: 1px solid #ddd; 
+        }
+
+        main p {
+            margin: 0 20px;
+        }
+
+        main {
+            margin: 40px 75px;
+        }
+
+    </style>
 </head>
 <body>
     <header>
-        <div class="logo"></div>
+        <div class="logo">L</div>
         <nav class="navigation">
             <ul>
                 <li>
